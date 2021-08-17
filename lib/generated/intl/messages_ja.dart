@@ -24,7 +24,8 @@ class MessageLookup extends MessageLookupByLibrary {
 
   final messages = _notInlinedMessages(_notInlinedMessages);
   static Map<String, Function> _notInlinedMessages(_) => <String, Function>{
-        "homepage": MessageLookupByLibrary.simpleMessage("サンプル　プロジェクト ホームページ"),
+        "homepage":
+            MessageLookupByLibrary.simpleMessage("[MODIFY] サンプル　プロジェクト ホームページ"),
         "intro": m0,
         "not_reviewedtext": MessageLookupByLibrary.simpleMessage(
             "これは通知付きの翻訳で、翻訳がレビューされていないことを示しています。"),
