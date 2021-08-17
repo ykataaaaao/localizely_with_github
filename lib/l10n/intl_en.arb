@@ -1,8 +1,8 @@
 {
   "@@locale": "en",
-  "homepage": "[MODIFY] Sample　project Home Pageaaa",
+  "homepage": "[MODIFY] Sample　project Home Pageaaa!!!",
   "@homepage": {
-    "description": "[MODIFY] homepage description"
+    "description": "[MODIFY] homepage description!!!"
   },
   "intro": "Hi {firstName}, welcome to Localizely! This is a sample project where you can explore the features.",
   "@intro": {

@@ -25,7 +25,7 @@ class MessageLookup extends MessageLookupByLibrary {
   final messages = _notInlinedMessages(_notInlinedMessages);
   static Map<String, Function> _notInlinedMessages(_) => <String, Function>{
         "homepage": MessageLookupByLibrary.simpleMessage(
-            "[MODIFY] Sample　project Home Pageaaa"),
+            "[MODIFY] Sample　project Home Pageaaa!!!"),
         "intro": m0,
         "not_reviewedtext": MessageLookupByLibrary.simpleMessage(
             "This is a translation with notification, which indicates the translation is not reviewed."),

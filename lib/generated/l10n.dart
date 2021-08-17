@@ -50,12 +50,12 @@ class S {
     return Localizations.of<S>(context, S);
   }
 
-  /// `[MODIFY] Sample　project Home Pageaaa`
+  /// `[MODIFY] Sample　project Home Pageaaa!!!`
   String get homepage {
     return Intl.message(
-      '[MODIFY] Sample　project Home Pageaaa',
+      '[MODIFY] Sample　project Home Pageaaa!!!',
       name: 'homepage',
-      desc: '[MODIFY] homepage description',
+      desc: '[MODIFY] homepage description!!!',
       args: [],
     );
   }
