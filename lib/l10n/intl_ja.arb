@@ -2,7 +2,7 @@
   "@@locale": "ja",
   "homepage": "サンプル　プロジェクト ホームページ",
   "@homepage": {
-    "description": "homepage description"
+    "description": "[MODIFY] homepage description"
   },
   "intro": "Hi {firstName}, Welcome to Localizely! これはサンプルプロジェクトで、機能を試すことができます。",
   "@intro": {
