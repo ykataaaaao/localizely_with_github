@@ -1,0 +1,17 @@
+{
+  "@@locale": "ja",
+  "homepage": "サンプル　プロジェクト ホームページ",
+  "@homepage": {
+    "description": "homepage description"
+  },
+  "intro": "Hi {firstName}, Welcome to Localizely! これはサンプルプロジェクトで、機能を試すことができます。",
+  "@intro": {
+    "description": "This is a description of a key so that the translator better understands the context"
+  },
+  "not_reviewedtext": "これは通知付きの翻訳で、翻訳がレビューされていないことを示しています。",
+  "@not_reviewedtext": {},
+  "pushbutton": "これだけ\"ボタン\"を\"\"■◆\"\"押したのだから\n\nこれだけボタンを■◆押したのだから\n",
+  "@pushbutton": {},
+  "too-long-text": "意図した長さを超えていることを示す、通知付きの翻訳です。",
+  "@too-long-text": {}
+}

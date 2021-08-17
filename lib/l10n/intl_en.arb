@@ -1,1 +1,17 @@
-{}
+{
+  "@@locale": "en",
+  "homepage": "Sample　project Home Pageaaa",
+  "@homepage": {
+    "description": "homepage description"
+  },
+  "intro": "Hi {firstName}, welcome to Localizely! This is a sample project where you can explore the features.",
+  "@intro": {
+    "description": "This is a description of a key so that the translator better understands the context"
+  },
+  "not_reviewedtext": "This is a translation with notification, which indicates the translation is not reviewed.",
+  "@not_reviewedtext": {},
+  "pushbutton": "You have pushed the ■◆ button this many times\n\nYou have pushed the ■◆ button this many times\n",
+  "@pushbutton": {},
+  "too-long-text": "This is a translation with notification, which indicates text exceeds its intended length.",
+  "@too-long-text": {}
+}
