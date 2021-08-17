@@ -1,0 +1,13 @@
+config_version: 1.0 # Only 1.0 available
+project_id: c776c33e-f428-4c91-87e1-a6a18c1554fe # Your project ID from: https://app.localizely.com/projects
+file_type: flutter_arb
+upload:
+  files: # List of files for upload to Localizely. Usually it is just one file used for the main locale
+    - file: lib/l10n/intl_en.arb
+      locale_code: en
+download:
+  files: # List of files for download from Localizely.
+    - file: lib/l10n/intl_en.arb
+      locale_code: en
+    - file: lib/l10n/intl_ja.arb
+      locale_code: ja
