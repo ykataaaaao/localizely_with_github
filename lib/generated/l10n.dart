@@ -49,6 +49,49 @@ class S {
   static S? maybeOf(BuildContext context) {
     return Localizations.of<S>(context, S);
   }
+
+  /// `Sample　project Home Pageaaa`
+  String get homepage {
+    return Intl.message(
+      'Sample　project Home Pageaaa',
+      name: 'homepage',
+      desc: '[MODIFY] homepage description',
+      args: [],
+    );
+  }
+
+  /// `Hi {firstName}, welcome to Localizely! This is a sample project where you can explore the features.`
+  String intro(Object firstName) {
+    return Intl.message(
+      'Hi $firstName, welcome to Localizely! This is a sample project where you can explore the features.',
+      name: 'intro',
+      desc:
+          'This is a description of a key so that the translator better understands the context',
+      args: [firstName],
+    );
+  }
+
+  /// `This is a translation with notification, which indicates the translation is not reviewed.`
+  String get not_reviewedtext {
+    return Intl.message(
+      'This is a translation with notification, which indicates the translation is not reviewed.',
+      name: 'not_reviewedtext',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `You have pushed the ■◆ button this many times\n\nYou have pushed the ■◆ button this many times\n`
+  String get pushbutton {
+    return Intl.message(
+      'You have pushed the ■◆ button this many times\n\nYou have pushed the ■◆ button this many times\n',
+      name: 'pushbutton',
+      desc: '',
+      args: [],
+    );
+  }
+
+  // skipped getter for the 'too-long-text' key
 }
 
 class AppLocalizationDelegate extends LocalizationsDelegate<S> {
@@ -57,6 +100,7 @@ class AppLocalizationDelegate extends LocalizationsDelegate<S> {
   List<Locale> get supportedLocales {
     return const <Locale>[
       Locale.fromSubtags(languageCode: 'en'),
+      Locale.fromSubtags(languageCode: 'ja'),
     ];
   }
 
