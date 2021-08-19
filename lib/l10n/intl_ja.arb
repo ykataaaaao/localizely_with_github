@@ -1,8 +1,8 @@
 {
   "@@locale": "ja",
-  "homepage": "[MODIFY] サンプル　プロジェクト ホームページ",
+  "homepage": "サンプル　プロジェクト ホームページ",
   "@homepage": {
-    "description": "[MODIFY] homepage description"
+    "description": "homepage description"
   },
   "intro": "Hi {firstName}, Welcome to Localizely! これはサンプルプロジェクトで、機能を試すことができます。",
   "@intro": {
